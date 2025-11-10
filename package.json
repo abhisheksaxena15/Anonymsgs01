@@ -1,6 +1,9 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "mongoose": "^8.19.3",
+=======
+>>>>>>> 0d3ebe52e065aa96fb64f5718cbd496c12992fd9
     "zod": "^4.1.12"
   }
 }
