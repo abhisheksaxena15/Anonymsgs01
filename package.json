@@ -1,9 +1,11 @@
 {
   "dependencies": {
-<<<<<<< HEAD
     "mongoose": "^8.19.3",
-=======
->>>>>>> 0d3ebe52e065aa96fb64f5718cbd496c12992fd9
+    "react": "^19.2.1",
     "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3"
   }
 }
