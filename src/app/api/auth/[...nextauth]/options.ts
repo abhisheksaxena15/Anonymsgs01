@@ -17,12 +17,12 @@ export const authOptions: NextAuthOptions = {
                 password: { label: "Password", type: "password" }
             },
             // now next auth do not know how to authorize so we will use cust1om authorize function
-            async authorize(credentials : any) : Promise<any> {
+            async authorize(credentials: any): Promise<any> {
                 //cant authorize directly need to connect to db first
                 await dbConnect()
                 try {
-                   const user =  await UserModel.findOne({
-                        $or : [
+                    const user = await UserModel.findOne({
+                        $or: [
                             { email: credentials.identifier },
                             { username: credentials.identifier }
                         ]
@@ -38,8 +38,8 @@ export const authOptions: NextAuthOptions = {
                     if (!isPasswordCorrect) {
                         throw new Error("Incorrect password")
                     }
-                    else {return user}
-                } catch (err : any) {
+                    else { return user }
+                } catch (err: any) {
                     throw new Error(err)
                 }
             }
@@ -47,5 +47,33 @@ export const authOptions: NextAuthOptions = {
         })
     ],
 
-    pages : {}
+    callbacks: {
+        async jwt({ token, user}) {
+            if (user) {
+                token._id = user._id?.tostring();//object id to string
+                token._isVerified = user.isVerified;
+                token.username = user.username;
+                token.isAcceptingMessages = user.isAcceptingMessages;
+            }
+            return token
+        },
+        async session({ session,  token }) {
+            if (token) {
+                session.user._id = token._id 
+                session.user.isVerified = token.isVerified 
+                session.user.username = token.username 
+                session.user.isAcceptingMessages = token.isAcceptingMessages 
+            return session
+        }
+
+    },
+
+    pages: {
+        signIn: '/sign-in'
+    },
+    session: {
+        strategy: 'jwt'
+    },
+
+    secret: process.env.NEXTAUTH_SECRET
 }
