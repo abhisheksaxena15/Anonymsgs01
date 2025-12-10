@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/AnonyMsgs/my-app/src/app/%28auth%29/sign-in/page.tsx"],"sourcesContent":["'use client';\r\nimport { useSession, signIn, signOut } from \"next-auth/react\"\r\n\r\nexport default function Component() {\r\n  const { data: session } = useSession()\r\n  if (session) {\r\n    return (\r\n      <>\r\n        Signed in as {session.user.email} <br />\r\n        <button onClick={() => signOut()}>Sign out</button>\r\n      </>\r\n    )\r\n  }\r\n  return (\r\n    <>\r\n      Not signed in <br />\r\n      <button onClick={() => signIn()}>Sign in</button>\r\n    </>\r\n  )\r\n}"],"names":[],"mappings":";;;;;AACA;;;AADA;;AAGe,SAAS;;IACtB,MAAM,EAAE,MAAM,OAAO,EAAE,GAAG,IAAA,4KAAU;IACpC,IAAI,SAAS;QACX,qBACE;;gBAAE;gBACc,QAAQ,IAAI,CAAC,KAAK;gBAAC;8BAAC,0MAAC;;;;;8BACnC,0MAAC;oBAAO,SAAS,IAAM,IAAA,yKAAO;8BAAI;;;;;;;;IAGxC;IACA,qBACE;;YAAE;0BACc,0MAAC;;;;;0BACf,0MAAC;gBAAO,SAAS,IAAM,IAAA,wKAAM;0BAAI;;;;;;;;AAGvC;GAhBwB;;QACI,4KAAU;;;KADd","debugId":null}}]
+}

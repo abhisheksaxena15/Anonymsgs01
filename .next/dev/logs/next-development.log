@@ -1,0 +1,1020 @@
+[00:00:03.059] Server  LOG      ✓ Ready in 2.2s
+[03:23:56.688] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.696] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.698] Browser ERROR   ./my-app/node_modules/next/dist/esm/server/app-render/collect-segment-data.js:8:1
+Export HEAD_REQUEST_KEY doesn't exist in target module
+The export HEAD_REQUEST_KEY was not found in module [project]/my-app/node_modules/next/dist/esm/shared/lib/segment-cache/segment-value-encoding.js [app-rsc] (ecmascript).
+Did you mean to import ROOT_SEGMENT_CACHE_KEY?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./my-app/node_modules/next/dist/esm/server/app-render/collect-segment-data.js
+    ./my-app/node_modules/next/dist/esm/server/app-render/entry-base.js
+[03:23:56.698] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.698] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.698] Browser ERROR   ./my-app/node_modules/next/dist/esm/server/app-render/collect-segment-data.js:8:1
+Export HEAD_REQUEST_KEY doesn't exist in target module
+The export HEAD_REQUEST_KEY was not found in module [project]/my-app/node_modules/next/dist/esm/shared/lib/segment-cache/segment-value-encoding.js [app-rsc] (ecmascript).
+Did you mean to import ROOT_SEGMENT_CACHE_KEY?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./my-app/node_modules/next/dist/esm/server/app-render/collect-segment-data.js
+    ./my-app/node_modules/next/dist/esm/server/app-render/entry-base.js
+[03:23:56.698] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.698] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.698] Browser ERROR   ./my-app/node_modules/next/dist/esm/server/app-render/collect-segment-data.js:8:1
+Export HEAD_REQUEST_KEY doesn't exist in target module
+The export HEAD_REQUEST_KEY was not found in module [project]/my-app/node_modules/next/dist/esm/shared/lib/segment-cache/segment-value-encoding.js [app-rsc] (ecmascript).
+Did you mean to import ROOT_SEGMENT_CACHE_KEY?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./my-app/node_modules/next/dist/esm/server/app-render/collect-segment-data.js
+    ./my-app/node_modules/next/dist/esm/server/app-render/entry-base.js
+[03:23:56.698] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.698] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.698] Browser ERROR   ./my-app/node_modules/next/dist/esm/server/app-render/collect-segment-data.js:8:1
+Export HEAD_REQUEST_KEY doesn't exist in target module
+The export HEAD_REQUEST_KEY was not found in module [project]/my-app/node_modules/next/dist/esm/shared/lib/segment-cache/segment-value-encoding.js [app-rsc] (ecmascript).
+Did you mean to import ROOT_SEGMENT_CACHE_KEY?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./my-app/node_modules/next/dist/esm/server/app-render/collect-segment-data.js
+    ./my-app/node_modules/next/dist/esm/server/app-render/entry-base.js
+[03:23:56.698] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.725] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.725] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.725] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.725] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.725] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.725] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.725] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.725] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.725] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.725] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.725] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.725] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.726] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.726] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.726] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.726] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.726] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.726] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.726] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.726] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.726] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.726] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.726] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.726] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.726] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.726] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.726] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.726] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.745] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.745] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.745] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.746] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.746] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.746] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.746] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.746] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.746] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.746] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.746] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.746] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.746] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.746] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.746] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.746] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.746] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.746] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.746] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.746] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.746] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.746] Browser ERROR   ./my-app/src/middleware.ts:14:5
+Parsing ecmascript source code failed
+  12 |         url.pathname === '/' ||
+  13 |         url.pathname.startsWith('/sign-up') ||
+> 14 |     )){
+     |     ^
+  15 |             return NextResponse.redirect(new URL('/dashboard' , request.url))
+  16 |     }
+  17 |     return NextResponse.redirect(new URL('/home' , request.url))
+
+Expression expected
+[03:23:56.746] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:5:1
+Module not found: Can't resolve '@/lib/dbConnect'
+  3 | // import Facebook from "next-auth/providers/facebook" 
+  4 | import { compare } from "bcryptjs"
+> 5 | import dbConnect from "@/lib/dbConnect"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import User from "@/model/User"
+  7 | import UserModel from "@/model/User"
+  8 |
+
+Import map: aliased to relative './lib/dbConnect' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[03:23:56.746] Browser ERROR   ./my-app/src/app/api/auth/[...nextauth]/options.ts:7:1
+Module not found: Can't resolve '@/model/User'
+   5 | import dbConnect from "@/lib/dbConnect"
+   6 | import User from "@/model/User"
+>  7 | import UserModel from "@/model/User"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 |
+  10 | export const authOptions: NextAuthOptions = {
+
+Import map: aliased to relative './model/User' inside of [project]/my-app
+
+Import trace:
+  App Route:
+    ./my-app/src/app/api/auth/[...nextauth]/options.ts
+    ./my-app/src/app/api/auth/[...nextauth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
